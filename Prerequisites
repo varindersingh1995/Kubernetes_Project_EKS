@@ -1,0 +1,5 @@
+AWS CLI – A command line tool for working with AWS services, including Amazon EKS. Kindly check this link for more information: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+Kubectl – A command line tool for working with Kubernetes clusters. Kindly check this link for more information: https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html.
+
+Eksctl – A command line tool for working with EKS clusters that automates many individual tasks. For more information, Kindly check this link: https://eksctl.io/installation/g.
