@@ -130,11 +130,22 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
   --set region=<region> \
   --set vpcId=<your-vpc-id>
 ```
+![image](https://github.com/varindersingh1995/Kubernetes_Project_EKS/assets/48336937/b8089dba-65d7-41c1-bde3-de8b17853d7f)
+
 
 Verify that the deployments are running.
 
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
+![image](https://github.com/varindersingh1995/Kubernetes_Project_EKS/assets/48336937/c062ffdd-0b2c-4e78-ac3c-01f9f4915263)
 
+### Step 7: Get the address of the Load balancer address that Ingress controller created.
+
+
+![image](https://github.com/varindersingh1995/Kubernetes_Project_EKS/assets/48336937/018314b9-546f-46a1-9072-5828a26ad87b)
+
+### Step 8: Open the Address in the browser  and Here is the Final Result:
+
+![image](https://github.com/varindersingh1995/Kubernetes_Project_EKS/assets/48336937/ed392290-9e63-47cb-8eb7-5ad9d1e3d634)
 
